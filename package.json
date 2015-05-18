@@ -1,0 +1,36 @@
+{
+  "name": "range-gen",
+  "version": "1.0.0",
+  "description": "Python-like xrange generator function",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register",
+    "prepublish": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roblabla/range-gen.git"
+  },
+  "keywords": [
+    "range",
+    "iterator",
+    "es6",
+    "xrange"
+  ],
+  "author": "roblabla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roblabla/range-gen/issues"
+  },
+  "homepage": "https://github.com/roblabla/range-gen#readme",
+  "devDependencies": {
+    "babel": "^5.4.3",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.4.3"
+  }
+}
